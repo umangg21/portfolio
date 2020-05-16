@@ -1,0 +1,73 @@
+@import "common.scss";
+@import "variable.scss";
+
+
+@mixin align-items($property) {
+    align-items: $property;
+}
+
+@mixin justify-content($property) {
+    justify-content: $property;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.jc {
+    &-center {
+        @include justify-content(center)
+    }
+}
+
+.ai {
+    &-center {
+        @include align-items(center)
+    }
+}
+
+.center-items {
+    @extend .d-flex;
+    @extend .jc-center;
+    @extend .ai-center;
+
+    &-h {
+        @extend .d-flex;
+        @extend .jc-center;
+    }
+
+    &-v {
+        @extend .d-flex;
+        @extend .ai-center;
+    }
+}
+
+.block {
+    &-left {
+        @extend .w-50;
+    }
+
+    &-right{
+        @extend .w-50;
+        float: right;
+    }
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+    .block {
+        &-left {
+           @include width(100%)
+        }
+    
+        &-right{
+            @include width(100%);
+           
+        }
+    }
+}

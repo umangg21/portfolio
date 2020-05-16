@@ -1,0 +1,10 @@
+@import "variable.scss";
+
+.bg {
+    &-blue {
+        background-color: $blue-color;
+    }
+    &-red {
+        background-color: red;
+    }
+}

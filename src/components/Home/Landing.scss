@@ -1,0 +1,51 @@
+@import "../../styles/variable.scss";
+
+.landing {
+    &-container{
+        flex-wrap: nowrap;
+    }
+    &-block-left {
+        text-align: right;
+        font-size: 65px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+
+    &-block-right {
+        text-align: left;
+        float: right;
+        font-size: 35px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+
+    .landing {
+        &-container{
+            flex-wrap: wrap;
+        }
+
+        &-block-left {
+            text-align: center;
+            font-size: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: flex-end;
+        }
+
+        &-block-right {
+            text-align: center;
+            font-size: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+            justify-content: flex-start;
+        }
+    }
+}

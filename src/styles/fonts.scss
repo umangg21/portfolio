@@ -1,0 +1,41 @@
+.fs {
+    &-14 {
+        font-size: 14px;
+    }
+
+    &-100 {
+        font-size: 100px;
+    }
+
+    &-140 {
+        font-size: 140px;
+    }
+}
+
+.text {
+    &-white {
+        color: white;
+    }
+}
+
+.text {
+    &-right {
+        text-align: right;
+    }
+}
+
+.ls- {
+    &-3 {
+        letter-spacing: 3px;
+    }
+}
+
+
+.link{
+    color: inherit;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+

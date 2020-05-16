@@ -1,0 +1,50 @@
+@mixin height($height) {
+    height: $height;
+}
+
+@mixin width($width) {
+    width: $width;
+}
+
+.h {
+    &-100 {
+        @include height(100%);
+    }
+}
+
+.w {
+    &-50 {
+        @include width(50%);
+    }
+
+    &-100 {
+        @include width(100%);
+    }
+}
+
+.vh {
+    &-100 {
+        @include height(100vh);
+    }
+}
+
+.min-vh {
+    &-100 {
+        min-height: 100vh;
+    }
+}
+
+.p {
+    &-1 {
+        padding: 0.25rem;
+    }
+    &-2 {
+        padding: 0.5rem;
+    }
+    &-3 {
+        padding: 1rem;
+    }
+    &-4 {
+        padding: 1.25rem;
+    }
+}
