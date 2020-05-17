@@ -2,12 +2,15 @@
 
 .landing {
     &-container {
+        min-height: 70vh;
         flex-wrap: nowrap;
+        display: flex;
     }
     &-block-left {
+        flex: 10 0 50%;
+
         text-align: right;
         font-size: 100px;
-        min-height: inherit;
 
         display: flex;
         justify-content: flex-end;
@@ -20,9 +23,9 @@
     }
 
     &-block-right {
+        flex: 10 0 50%;
         text-align: left;
         font-size: 24px;
-        min-height: inherit;
 
         display: flex;
         align-items: center;
@@ -31,14 +34,6 @@
             padding-left: 10px;
             padding-right: 100px;
         }
-    }
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    .space {
-        width: 40px;
     }
 }
 
@@ -76,15 +71,15 @@
     }
 }
 
-@media  (max-width: $breakpoint-tablet) {
+@media (max-width: $breakpoint-tablet) {
     .landing {
         &-container {
-            flex-wrap: wrap;
             min-height: 90vh;
+            flex-wrap: wrap;
         }
 
         &-block-left {
-            min-height: 45vh;
+            flex: 10 0 100%;
             font-size: 65px;
             text-align: center;
             justify-content: center;
@@ -95,7 +90,7 @@
         }
 
         &-block-right {
-            min-height: 45vh;
+            flex: 10 0 100%;
             text-align: center;
             font-size: 20px;
             align-items: flex-start;
@@ -106,17 +101,14 @@
             }
         }
     }
-
-    .btn-container {
-        min-height: 20vh;
-        .space {
-            width: 20px;
-        }
-    }
 }
 
 @media (max-width: $breakpoint-mobile-small) {
+   
     .landing {
+        &-container {
+            min-height: 80vh;
+        }
         &-block-left {
             font-size: 40px;
         }

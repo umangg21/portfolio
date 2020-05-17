@@ -1,0 +1,24 @@
+@import "../../../styles/variable.scss";
+
+.btn-container {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    a {
+        height: fit-content;
+        padding: 10px 0 10px 0;
+    }
+    .space {
+        width: 40px;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .btn-container {
+        min-height: 20vh;
+
+        .space {
+            width: 20px;
+        }
+    }
+}

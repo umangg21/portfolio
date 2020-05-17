@@ -32,12 +32,25 @@ $text-color: #a6c8f2;
             .text-section {
                 display: none;
             }
+
+            img {
+                height: 65px;
+            }
         }
 
-         .landing-contact-heading{
-             display: inline;
-         }
+        .landing-contact-heading {
+            display: inline;
+        }
     }
+
+    @media (max-width: $breakpoint-mobile-small) {
+        .landing-contact-card {
+            img {
+                height: 50px;
+            }
+        }
+    }
+
 }
 
 .landing-contact-card {
@@ -51,9 +64,6 @@ $text-color: #a6c8f2;
 
         &:hover {
             color: #c8dbf1;
-        }
-
-        img {
         }
 
         .subtitle {
