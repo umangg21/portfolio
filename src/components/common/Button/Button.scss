@@ -1,21 +1,37 @@
+@import "../../../styles/variable.scss";
+
 .btn {
     padding: 10px 15px;
     border-radius: 30.5px;
     min-width: 230px;
     min-height: 60px;
     max-width: fit-content;
-    font-size: 24px;
     font-family: "Avenir Next";
-    font-weight: 500;
     border: 2px solid white;
     cursor: pointer;
+    font-size: 24px;
 
     p {
         margin: 0;
+        font-size: 24px;
+        font-weight: 500;
     }
 
     &:focus {
         outline: none;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .btn {
+        padding: 5px 10px;
+
+        min-width: 180px;
+        min-height: 45px;
+
+        p {
+            font-size: 20px;
+        }
     }
 }
 

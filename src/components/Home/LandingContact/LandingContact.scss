@@ -6,6 +6,15 @@ $text-color: #a6c8f2;
     display: flex;
     flex-wrap: wrap;
     margin: -10px;
+
+    .landing-contact-heading {
+        text-align: center;
+        color: $text-color;
+        font-size: 18px;
+        width: 100%;
+        display: none;
+    }
+
     .landing-contact-card {
         flex: 10 0 30%;
         margin: 10px;
@@ -25,6 +34,10 @@ $text-color: #a6c8f2;
                 display: none;
             }
         }
+
+         .landing-contact-heading{
+             display: inline;
+         }
     }
 }
 
@@ -38,7 +51,7 @@ $text-color: #a6c8f2;
         align-items: flex-end;
 
         &:hover {
-            color: #93bbec;
+            color: #c8dbf1;
         }
 
         img {

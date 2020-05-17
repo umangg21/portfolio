@@ -46,8 +46,9 @@ class LandingContact extends Component {
         return (
             <section>
                 <div className="min-vh-50 bg-blue d-flex landing-contact-container">
+                    <p className="landing-contact-heading">Click below to know more</p>
                     {
-                        ContactLinks.map((item) => <LandingContactCard item={item} />)
+                        ContactLinks.map((item) => <LandingContactCard item={item} key={item?.icon} />)
                     }
                 </div>
             </section>
