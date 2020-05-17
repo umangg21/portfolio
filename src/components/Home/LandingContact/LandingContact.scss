@@ -1,0 +1,56 @@
+@import "../../../styles/variable.scss";
+
+$text-color: #a6c8f2;
+
+.landing-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    .landing-contact-card {
+        flex: 10 0 30%;
+        margin: 10px;
+    }
+
+    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+        .landing-contact-card {
+            flex: 0 0 45%;
+        }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        .landing-contact-card {
+            flex: 10 0 40%;
+
+            .text-section {
+                display: none;
+            }
+        }
+    }
+}
+
+.landing-contact-card {
+    a {
+        text-decoration: none;
+        color: $text-color;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        &:hover {
+            color: #93bbec;
+        }
+
+        img {
+        }
+
+        .subtitle {
+            font-size: 13px;
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 28px;
+        }
+    }
+}

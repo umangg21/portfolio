@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Landing.scss"
-import Button from '../common/Button/Button'
+import Button from '../../common/Button/Button'
 
 export class Landing extends Component {
     render() {
