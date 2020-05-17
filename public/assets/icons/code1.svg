@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>code</title>
+    <defs>
+        <path d="M58.2106806,0 L5.78931937,0 C2.592,0 0,2.592 0,5.78931937 L0,58.2105131 C0,61.408 2.592,64 5.78931937,64 L58.2105131,64 C61.408,64 64,61.408 64,58.2105131 L64,5.78931937 C64,2.592 61.408,0 58.2106806,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="code">
+            <g id="&lt;-&gt;-+-/-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <text id="&lt;-&gt;" mask="url(#mask-2)" font-family="Chalkboard" font-size="50" font-weight="normal" fill="#A6C8F2">
+                    <tspan x="1" y="47">&lt; &gt;</tspan>
+                </text>
+                <text id="/" mask="url(#mask-2)" font-family="Chalkboard" font-size="50" font-weight="normal" fill="#A6C8F2">
+                    <tspan x="20" y="52">/</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" x="1" y="0" width="63" height="64"></rect>
+        </g>
+    </g>
+</svg>
