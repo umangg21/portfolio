@@ -1,0 +1,47 @@
+.btn {
+    padding: 10px 15px;
+    border-radius: 30.5px;
+    min-width: 230px;
+    min-height: 60px;
+    max-width: fit-content;
+    font-size: 24px;
+    font-family: "Avenir Next";
+    font-weight: 500;
+    border: 2px solid white;
+    cursor: pointer;
+
+    p {
+        margin: 0;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.primary {
+    @extend .btn;
+    background-color: white;
+    color: #4990e2;
+
+    &:hover {
+        background-color: transparentize($color: white, $amount: 0.1);
+    }
+
+    &:active {
+        background-color: white;
+    }
+}
+.secondary {
+    @extend .btn;
+    background-color: transparent;
+    color: white;
+
+    &:hover {
+        background-color: transparentize($color: white, $amount: 0.9);
+    }
+
+    &:active {
+        background-color: transparent;
+    }
+}

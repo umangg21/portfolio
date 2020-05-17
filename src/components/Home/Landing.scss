@@ -1,51 +1,83 @@
 @import "../../styles/variable.scss";
 
 .landing {
-    &-container{
+    &-container {
         flex-wrap: nowrap;
     }
     &-block-left {
         text-align: right;
-        font-size: 65px;
-        padding-left: 100px;
+        font-size: 100px;
+        padding-left: 120px;
+        padding-right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-      
+        align-items: flex-end;
+
+        .content {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+
+            a {
+                display: flex;
+                text-decoration: none;
+            }
+        }
     }
 
     &-block-right {
         text-align: left;
         float: right;
-        font-size: 35px;
-        padding-right: 100px;
+        font-size: 24px;
+        padding-right: 120px;
+        padding-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
     }
 }
 
 @media (max-width: $breakpoint-tablet) {
-
     .landing {
-        &-container{
+        &-container {
             flex-wrap: wrap;
         }
 
         &-block-left {
             text-align: center;
-            font-size: 40px;
+            font-size: 65px;
             padding-left: 20px;
             padding-right: 20px;
-            align-items: flex-end;
+            align-items: center;
         }
 
         &-block-right {
             text-align: center;
-            font-size: 25px;
+            font-size: 20px;
             padding-left: 20px;
             padding-right: 20px;
             justify-content: flex-start;
+            align-items: center;
         }
     }
 }
