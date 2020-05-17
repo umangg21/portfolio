@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>InterviewBit</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="InterviewBit">
+            <path d="M58.2106806,0 L5.78931937,0 C2.592,0 0,2.592 0,5.78931937 L0,58.2105131 C0,61.408 2.592,64 5.78931937,64 L58.2105131,64 C61.408,64 64,61.408 64,58.2105131 L64,5.78931937 C64,2.592 61.408,0 58.2106806,0 Z" id="Path" fill-rule="nonzero"></path>
+            <g id="i" transform="translate(8.000000, 10.000000)" fill="#A6C8F2">
+                <circle id="Oval" cx="14.5" cy="5.5" r="5.5"></circle>
+                <rect id="Rectangle" x="11" y="13" width="9" height="30"></rect>
+                <rect id="Rectangle" x="0" y="13" width="20" height="7"></rect>
+            </g>
+            <text id="β" font-family="LucidaGrande-Bold, Lucida Grande" font-size="52" font-weight="bold" fill="#A6C8F2">
+                <tspan x="28" y="50">β</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
