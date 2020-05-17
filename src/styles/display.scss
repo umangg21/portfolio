@@ -50,6 +50,7 @@
 .block {
     &-left {
         @extend .w-50;
+        float: left;
     }
 
     &-right{
