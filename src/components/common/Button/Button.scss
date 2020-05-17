@@ -35,6 +35,19 @@
     }
 }
 
+@media (max-width: $breakpoint-mobile-small) {
+    .btn {
+        padding: 2px 6px;
+
+        min-width: 100px;
+        min-height: 35px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
 .primary {
     @extend .btn;
     background-color: white;

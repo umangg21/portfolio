@@ -5,8 +5,8 @@ import Button from '../../common/Button/Button'
 export class Landing extends Component {
     render() {
         return (
-            <div className="bg-blue min-vh-100">
-                <div className="min-vh-70 landing-container">
+            <>
+                <div className="min-vh-70 bg-blue landing-container">
                     <div className="block-left landing-block-left">
                         <div className="content">
                             <p className="text-white ls-3 p-1 fw-400">hi, i am <br />umang gupta</p>
@@ -22,7 +22,7 @@ export class Landing extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="min-vh-30 btn-container">
+                <div className="min-vh-30 bg-blue btn-container">
                     <a download="Umang_Resume" target="_blank" rel="noopener noreferrer" href="assets/files/Umang-Resume.pdf">
                         <Button primary text="Resume" />
                     </a>
@@ -31,7 +31,7 @@ export class Landing extends Component {
                         <Button secondary text="Git Profile" />
                     </a>
                 </div>
-            </div>
+            </>
         )
     }
 }
