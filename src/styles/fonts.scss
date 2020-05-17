@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Avenir Next';
-    src: local('Arvo'), url('https://cdn.indiawealth.in/public/fonts/400.ttf') format('woff2');
+    src: local('Arvo'), url('/public/assets/fonts/400.ttf') format('woff2');
     font-weight: normal;
     font-display: fallback;
   
@@ -8,7 +8,7 @@
   
   @font-face {
     font-family: 'Avenir Next';
-    src: local('Arvo'), url('https://cdn.indiawealth.in/public/fonts/500.ttf') format('woff2');
+    src: local('Arvo'), url('/public/assets/fonts/500.ttf') format('woff2');
     font-weight: 500;
     font-display: fallback;
   
@@ -16,13 +16,11 @@
   
   @font-face {
     font-family: 'Avenir Next';
-    src: local('Arvo'), url('https://cdn.indiawealth.in/public/fonts/600.ttf') format('woff2');
+    src: local('Arvo'), url('/public/assets/fonts/600.ttf') format('woff2');
     font-weight: 600;
     font-display: fallback;
   }
   
-  
-
 .fs {
     &-14 {
         font-size: 14px;

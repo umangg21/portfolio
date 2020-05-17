@@ -1,0 +1,77 @@
+@import "../../../styles/variable.scss";
+
+$heading-color: #a7a7a7;
+
+.contact-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .contact-heading {
+        margin-top: 15px;
+        text-align: center;
+        color: $heading-color;
+        font-size: 24px;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    .contact-card {
+        flex: 10 0 30%;
+        margin: 10px;
+    }
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    a {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        font-weight: 500;
+        font-size: 20px;
+
+        text-decoration: none;
+        color: $heading-color;
+        img {
+            height: 80px;
+        }
+
+        &:hover {
+            color: #969696;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .contact-container {
+        .contact-card {
+            flex: 10 0 60%;
+
+            a {
+                font-size: 16px;
+                img {
+                    height: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .contact-container {
+        .contact-card {
+            a {
+                font-size: 14px;
+                img {
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./LandingContact.scss"
 
 const ContactLinks = [
@@ -40,21 +40,18 @@ const ContactLinks = [
     },
 ]
 
-class LandingContact extends Component {
-
-    render() {
-        return (
-            <div className="min-vh-50 bg-blue d-flex landing-contact-container">
-                <p className="landing-contact-heading">Click below to know more</p>
-                {
-                    ContactLinks.map((item) => <LandingContactCard item={item} key={item?.icon} />)
-                }
-            </div>
-        )
-    }
+const LandingContact = () => {
+    return (
+        <div className="min-vh-50 bg-blue d-flex landing-contact-container">
+            <p className="landing-contact-heading">Click below to know more</p>
+            {
+                ContactLinks.map((item) => <LandingContactCard item={item} key={item?.icon} />)
+            }
+        </div>
+    )
 }
 
-export default LandingContact
+export default React.memo(LandingContact)
 
 
 const LandingContactCard = (props) => {

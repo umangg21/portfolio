@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Landing.scss"
 
-export class Landing extends Component {
-    render() {
+const Landing =()=> {
         return (
             <div className="bg-blue landing-container">
                 <div className="landing-block-left">
@@ -21,7 +20,6 @@ export class Landing extends Component {
                 </div>
             </div>
         )
-    }
 }
 
-export default Landing
+export default React.memo(Landing)
