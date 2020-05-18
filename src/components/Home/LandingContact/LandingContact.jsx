@@ -1,12 +1,7 @@
 import React from 'react'
 import "./LandingContact.scss"
 
-const ContactLinks = [
-    {
-        icon: "assets/icons/linkedin.svg",
-        link: "https://www.linkedin.com/in/umangg21/",
-        title: "umangg21"
-    },
+const Contacts = [
     {
         icon: "assets/icons/github.svg",
         link: "https://github.com/umangg21/",
@@ -28,25 +23,37 @@ const ContactLinks = [
         title: "umangg21"
     },
     {
-        icon: "assets/icons/facebook.svg",
-        link: "https://www.facebook.com/umangg21/",
+        icon: "assets/icons/linkedin.svg",
+        link: "https://www.linkedin.com/in/umangg21/",
         title: "umangg21"
     },
-
+    {
+        icon: "assets/icons/twitter.svg",
+        link: "https://twitter.com/umangg21",
+        title: "umangg21"
+    },
     {
         icon: "assets/icons/instagram.svg",
         link: "https://www.instagram.com/umangg21/",
         title: "umangg21"
     },
+    {
+        icon: "assets/icons/facebook.svg",
+        link: "https://www.facebook.com/umangg21/",
+        title: "umangg21"
+    },
 ]
+
 
 const LandingContact = () => {
     return (
-        <div className="min-vh-50 bg-blue d-flex landing-contact-container">
-            <p className="landing-contact-heading">Click below to know more</p>
-            {
-                ContactLinks.map((item) => <LandingContactCard item={item} key={item?.icon} />)
-            }
+        <div className="min-vh-50 bg-blue landing-contact-root">
+            <p className="landing-contact-heading">Click below to know more about me.</p>
+            <div className="landing-contact-container">
+                {
+                    Contacts.map((item) => <LandingContactCard item={item} key={item?.icon} />)
+                }
+            </div>
         </div>
     )
 }

@@ -50,6 +50,9 @@ $heading-color: #a7a7a7;
 
 @media (max-width: $breakpoint-mobile) {
     .contact-container {
+        .contact-heading {
+            font-size: 18px;
+        }
         .contact-card {
             flex: 10 0 60%;
 
@@ -65,6 +68,10 @@ $heading-color: #a7a7a7;
 
 @media (max-width: $breakpoint-mobile) {
     .contact-container {
+        .contact-heading {
+            margin-top: 0;
+            font-size: 16px;
+        }
         .contact-card {
             a {
                 font-size: 14px;
