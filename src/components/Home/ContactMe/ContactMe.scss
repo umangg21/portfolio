@@ -1,10 +1,6 @@
 @import "../../../styles/variable.scss";
 
-$heading-color: #a7a7a7;
-
 .contact-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 
@@ -16,17 +12,11 @@ $heading-color: #a7a7a7;
         width: 100%;
         font-weight: 500;
     }
-
-    .contact-card {
-        flex: 10 0 30%;
-        margin: 10px;
-    }
 }
 
 .contact-card {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex: 10 0 30%;
+    margin: 10px;
 
     a {
         align-items: center;
@@ -38,17 +28,24 @@ $heading-color: #a7a7a7;
 
         text-decoration: none;
         color: $heading-color;
-        img {
-            height: 80px;
-        }
+
+        transition: ease-in 0.2s all;
 
         &:hover {
-            color: #969696;
+            color: #868686;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        img {
+            height: 80px;
         }
     }
 }
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-tablet) {
     .contact-container {
         .contact-heading {
             font-size: 18px;
@@ -69,7 +66,7 @@ $heading-color: #a7a7a7;
 @media (max-width: $breakpoint-mobile) {
     .contact-container {
         .contact-heading {
-            margin-top: 0;
+            margin-top: 10px;
             font-size: 16px;
         }
         .contact-card {
