@@ -16,17 +16,12 @@ $heading-color: #a7a7a7;
         width: 100%;
         font-weight: 500;
     }
-
-    .contact-card {
-        flex: 10 0 30%;
-        margin: 10px;
-    }
 }
 
 .contact-card {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+
+    flex: 10 0 30%;
+        margin: 10px;
 
     a {
         align-items: center;
@@ -38,12 +33,20 @@ $heading-color: #a7a7a7;
 
         text-decoration: none;
         color: $heading-color;
-        img {
-            height: 80px;
-        }
+
+        transition: ease-in 0.2s all;
 
         &:hover {
-            color: #969696;
+            color: #868686;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+
+        img {
+            height: 80px;
+           
         }
     }
 }
