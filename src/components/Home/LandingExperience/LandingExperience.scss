@@ -1,0 +1,99 @@
+@import "../../../styles/variable.scss";
+
+.experience {
+    &-heading {
+        margin-top: 15px;
+        text-align: center;
+        color: $heading-color;
+        font-size: 24px;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-card {
+        flex: 10 0 30%;
+
+        margin-top: 10px;
+        text-align: center;
+
+        img {
+            height: 70px;
+            margin-top: 15px;
+            transition: linear 0.2s all;
+        }
+
+        .card-title {
+            font-size: 24px;
+            color: #333333;
+            margin-top: 15px;
+        }
+
+        .ex {
+            &-title {
+                margin-top: 20px;
+                font-size: 15px;
+                color: #545454;
+                font-weight: 600;
+            }
+
+            &-org {
+                font-size: 16px;
+                color: #424242;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            &-timeline {
+                font-size: 15px;
+                color: #7b7b7b;
+                margin-bottom: 20px;
+                font-weight: 500;
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+
+        :hover {
+            .ex {
+                &-org {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        &-heading {
+            font-size: 18px;
+        }
+
+        &-card {
+            flex: 10 0 40%;
+
+            .card-title {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        &-heading {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        &-card {
+            flex: 10 0 60%;
+        }
+    }
+}

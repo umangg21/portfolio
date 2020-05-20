@@ -1,10 +1,6 @@
 @import "../../../styles/variable.scss";
 
-$heading-color: #a7a7a7;
-
 .contact-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 
@@ -19,9 +15,8 @@ $heading-color: #a7a7a7;
 }
 
 .contact-card {
-
     flex: 10 0 30%;
-        margin: 10px;
+    margin: 10px;
 
     a {
         align-items: center;
@@ -39,19 +34,18 @@ $heading-color: #a7a7a7;
         &:hover {
             color: #868686;
 
-            &:hover{
+            &:hover {
                 transform: scale(1.2);
             }
         }
 
         img {
             height: 80px;
-           
         }
     }
 }
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: $breakpoint-tablet) {
     .contact-container {
         .contact-heading {
             font-size: 18px;
@@ -72,7 +66,7 @@ $heading-color: #a7a7a7;
 @media (max-width: $breakpoint-mobile) {
     .contact-container {
         .contact-heading {
-            margin-top: 0;
+            margin-top: 10px;
             font-size: 16px;
         }
         .contact-card {
