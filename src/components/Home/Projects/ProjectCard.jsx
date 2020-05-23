@@ -5,7 +5,12 @@ import "./ProjectCard.scss"
 const ProjectCard = (props) => {
 
     const { project } = props
-    const { image, title, shortDesc, techTags, navlink, codeLink } = project
+    const { image, title, shortDesc, techTags, navlink, codeLink,
+        cta: {
+            primary, secondary
+        } = {}
+    } = project
+
     return (
         <div className="project-card">
             <div className="card-details">
@@ -25,13 +30,11 @@ const ProjectCard = (props) => {
 
             <div className="card-button-container">
                 <div className="card-button-inner-container d-flex">
-                    <a className="view-code-button" href={navlink}
-                        style={codeLink ? {} : { width: `100%` }}
-                        target="_blank" rel="noopener noreferrer"
-                    > Preview</a>
                     {
-                        codeLink &&
-                        <a className="view-code-button" href={codeLink}> Code </a>
+                        primary && <Navlink title={primary.title} navlink={primary.navlink} width={secondary ? 50 : 100} />
+                    }
+                    {
+                        secondary && <Navlink title={secondary.title} navlink={secondary.navlink} />
                     }
                 </div>
 
@@ -43,3 +46,12 @@ const ProjectCard = (props) => {
 }
 
 export default ProjectCard
+
+
+const Navlink = ({ title, navlink, width = 50 }) => {
+    return <a className="view-code-button"
+        href={navlink}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ width: `${width}%` }}>{title}</a>
+}
