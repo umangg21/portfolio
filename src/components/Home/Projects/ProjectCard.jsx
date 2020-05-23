@@ -5,7 +5,7 @@ import "./ProjectCard.scss"
 const ProjectCard = (props) => {
 
     const { project } = props
-    const { image, title, shortDesc, techTags, navlink, codeLink,
+    const { image, title, shortDesc, techTags,
         cta: {
             primary, secondary
         } = {}
@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
 
     return (
         <div className="project-card">
-            <div className="card-details">
+            <a className="card-details" href={primary.navlink}>
                 <div className="card-image-container">
                     <img className="card-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt="" />
                 </div>
@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
                     }
                 </ul>
 
-            </div>
+            </a>
 
             <div className="card-button-container">
                 <div className="card-button-inner-container d-flex">
