@@ -13,7 +13,10 @@ const ProjectCard = (props) => {
 
     return (
         <div className="project-card">
-            <a className="card-details" href={primary.navlink}>
+            <a className="card-details" href={primary.navlink}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <div className="card-image-container">
                     <img className="card-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt="" />
                 </div>

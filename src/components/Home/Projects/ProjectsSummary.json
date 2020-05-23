@@ -32,11 +32,11 @@
         "cta": {
             "primary": {
                 "title": "Preview",
-                "navlink": "https://www.indwealth.in/"
+                "navlink": "https://repaircenter.mymitchell.com/connect/account/#/login"
             },
             "secondary": {
-                "title": "Preview",
-                "navlink": "https://www.indwealth.in/"
+                "title": "Read More",
+                "navlink": "https://www.mitchell.com/products-services/collision-repair-shop-solutions/cloud-estimating"
             }
         }
     },
@@ -278,7 +278,7 @@
     },
     {
         "title": "Nested Comments",
-        "shortDesc": "Nested Comments is a prototype of comments accross various social sites to add, delete, edit root or child level comments.",
+        "shortDesc": "Nested Comments is a prototype various social sites to add, delete, edit root or child level comments.",
         "techTags": [
             "JavaScript",
             "HTML",
@@ -318,8 +318,8 @@
         }
     },
     {
-        "title": "Attendance Automation System using Face Detection and Recognition",
-        "shortDesc": "An application which took the image of Employees using CCTVs, Detect the face and then  recognize the person by comparing faces in the database of Employees.",
+        "title": "Attendanc System using Face Recognition",
+        "shortDesc": "An application which took the image using CCTVs, recognize the person by comparing faces in the database..",
         "techTags": [
             "Python",
             "OpenCV",
@@ -339,7 +339,7 @@
     },
     {
         "title": "Time Series Satellite Data Visualizer",
-        "shortDesc": "App to express the phenology by showing the Various stretching (Histogram, Satndard Deviation, 2 InterQuartile Range, Percentile Clipping) of the Time Series Images.",
+        "shortDesc": "App to express the phenology by displaying Histogram data of the Time Series Images.",
         "techTags": [
             "Python",
             "PyQT",
