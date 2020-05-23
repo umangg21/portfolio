@@ -1,0 +1,103 @@
+@import "../../../styles/variable.scss";
+
+.card-image {
+    height: 100%;
+    margin-left: -20px;
+    margin-top: -20px;
+    width: calc(100% + 40px);
+    object-fit: cover;
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.card-image-container {
+    height: 150px;
+}
+
+.card {
+    &-title {
+        font-weight: 600;
+        font-size: 18px;
+        color: #2f4f4f;
+    }
+
+    &-desc {
+        font-weight: 500;
+        font-size: 13px;
+        color: #656464;
+        margin-bottom: 10px;
+    }
+}
+
+.tags-list {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+    padding: 0;
+
+    .tags {
+        font-size: 13px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 2px 4px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        background-color: #54a6fa;
+        color: white;
+    }
+}
+
+.view-code-button {
+    height: 20px;
+    background-color: #9cb0ce;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+}
+
+.card-button-container {
+    position: relative;
+}
+
+.card-button-inner-container {
+    width: -webkit-fill-available;
+    display: none;
+    height: 40px;
+    bottom: -40px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:hover {
+        .card-button-inner-container {
+            animation: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) increaseHeight;
+            display: flex;
+            position: absolute;
+        }
+    }
+}
+
+@keyframes increaseHeight {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 40px;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .card-button-inner-container {
+        visibility: initial;
+    }
+}
