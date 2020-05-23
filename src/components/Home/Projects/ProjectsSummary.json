@@ -1,0 +1,362 @@
+[
+    {
+        "title": "INDmoney",
+        "shortDesc": "A super money app. which helps the user to track - save - earn on their Investments, Loans, Credit Cards, Expenses, and Tax.",
+        "techTags": [
+            "React",
+            "Redux",
+            "JavaScript",
+            "React Router",
+            "ANTD",
+            "BootStrap"
+        ],
+        "image": "INDwealth.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://www.indwealth.in/"
+            },
+            "secondary": null
+        }
+    },
+    {
+        "title": "Mitchell Cloud Estimating",
+        "shortDesc": "Estimating software for collision & auto body repair. The freedom to write an estimate anywhere, anytime, on any device.",
+        "techTags": [
+            "React",
+            "Angular 1.x",
+            "Typescript",
+            "Material IO"
+        ],
+        "image": "mce.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://www.indwealth.in/"
+            },
+            "secondary": {
+                "title": "Preview",
+                "navlink": "https://www.indwealth.in/"
+            }
+        }
+    },
+    {
+        "title": "Trello Mock",
+        "shortDesc": "Trello is used to keep the track of tasks in Agile Process and features such that Add Cards, Add List, Edit existing Card, Create New Board, Save Existing Board.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material"
+        ],
+        "image": "trello.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/trello-mock/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/trello-mock"
+            }
+        }
+    },
+    {
+        "title": "Contact Manager",
+        "shortDesc": "This app is used to load contacts from social platforms and organize the contacts by assigning a relationship to each contact so that user can identify contacts easily in Phone Book.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material"
+        ],
+        "image": "contact_manager.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/contact-manager/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/contact-manager"
+            }
+        }
+    },
+    {
+        "title": "Instagram Mock",
+        "shortDesc": "Instagram Mock is having many features such that Edit Profile, New Post, Delete Existing Post, Image Viewer, Like and Comment.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Axios"
+        ],
+        "image": "Instagram.jpg",
+        "cta": {
+            "primary": {
+                "title": "View",
+                "navlink": "https://umangg21.github.io/begin-with-u/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/begin-with-u"
+            }
+        }
+    },
+    {
+        "title": "Github User",
+        "shortDesc": "Github Users Search UI App is used to search users on github using https://developer.github.com/v3 API's. User Info and Repositories of a user can be viewed on User Profile Page.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Axios"
+        ],
+        "image": "github.jpg",
+        "cta": {
+            "primary": {
+                "title": "Search",
+                "navlink": "https://umangg21.github.io/github-users/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/github-users"
+            }
+        }
+    },
+    {
+        "title": "Finding Falcone",
+        "shortDesc": "Finding Falcone is a game build at planet of Lengaburu.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Fetch",
+            "Enzyme",
+            "Emotion"
+        ],
+        "image": "falcony.jpg",
+        "cta": {
+            "primary": {
+                "title": "Play",
+                "navlink": "https://umangg21.github.io/finding-falcone/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/finding-falcone"
+            }
+        }
+    },
+    {
+        "title": "15 Puzzle Game",
+        "shortDesc": "The 15-puzzle (Game of Fifteen) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Fetch",
+            "Enzyme",
+            "Emotion"
+        ],
+        "image": "15puzzle2.jpg",
+        "cta": {
+            "primary": {
+                "title": "Play",
+                "navlink": "https://umangg21.github.io/puzzle-game/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/puzzle-game"
+            }
+        }
+    },
+    {
+        "title": "RSS Feed",
+        "shortDesc": "RSS Feed App is use to display the RSS Feeds in a organised way.",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Fetch",
+            "Enzyme",
+            "Emotion"
+        ],
+        "image": "rssfeed.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/rss-feed/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/rss-feed"
+            }
+        }
+    },
+    {
+        "title": "Mutual Fund App",
+        "shortDesc": "Mutual Fund App is use to display Rating, 1 year returns, AUM, Expense Ratio of various funds. Live at: ",
+        "techTags": [
+            "React",
+            "Typescipt",
+            "Material",
+            "Fetch",
+            "Enzyme",
+            "Infinite Loader"
+        ],
+        "image": "mutual-fund2.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/mutual-funds/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/mutual-funds"
+            }
+        }
+    },
+    {
+        "title": "GIF Search",
+        "shortDesc": "This app is used to search GIFs using Giphy Developer API's available on - ​https://developers.giphy.com.",
+        "techTags": [
+            "React",
+            "Material",
+            "Fetch",
+            "Giphy"
+        ],
+        "image": "GIFted.jpg",
+        "cta": {
+            "primary": {
+                "title": "Search",
+                "navlink": "https://umangg21.github.io/gifted-search/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/gifted-search"
+            }
+        }
+    },
+    {
+        "title": "Portfolio Comparison",
+        "shortDesc": "Portfolio Comparison is app used to compare the performance history and growth of various portfolios.",
+        "techTags": [
+            "React",
+            "Recharts",
+            "BootStrap",
+            "dayjs"
+        ],
+        "image": "compare-portfolio.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/portfolio-comparison/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/portfolio-comparison"
+            }
+        }
+    },
+    {
+        "title": "Food Order!",
+        "shortDesc": "Food Order app to search, sort, filter, mark favourite Restaurant by name, location, and cuisines.",
+        "techTags": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "image": "food-order.jpg",
+        "cta": {
+            "primary": {
+                "title": "Order Now",
+                "navlink": "https://umangg21.github.io/Javascript/Apps/Food%20Order/index.html"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/Javascript/tree/master/Apps/Food%20Order"
+            }
+        }
+    },
+    {
+        "title": "Nested Comments",
+        "shortDesc": "Nested Comments is a prototype of comments accross various social sites to add, delete, edit root or child level comments.",
+        "techTags": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "image": "comment.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/Javascript/Apps/Nested%20Comments/index.html"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/Javascript/tree/master/Apps/Nested%20Comments"
+            }
+        }
+    },
+    {
+        "title": "Todo APP!",
+        "shortDesc": "Todo App built in vanilla Javascript having capability of add, delete, edit, mark complete and uncomplete to a todo item.",
+        "techTags": [
+            "React",
+            "Recharts",
+            "BootStrap",
+            "dayjs"
+        ],
+        "image": "todo.png",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/Javascript/Apps/Todo%20App%20MVC/index.html"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/Javascript/tree/master/Apps/Todo%20App%20MVC"
+            }
+        }
+    },
+    {
+        "title": "Attendance Automation System using Face Detection and Recognition",
+        "shortDesc": "An application which took the image of Employees using CCTVs, Detect the face and then  recognize the person by comparing faces in the database of Employees.",
+        "techTags": [
+            "Python",
+            "OpenCV",
+            "PyQT",
+            "Numpy",
+            "Scipy",
+            "Sqlite"
+        ],
+        "image": "face1.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://github.com/umangg21/Attendance-Automation-System-using-Face-Detection-and-Recognition"
+            },
+            "secondary": null
+        }
+    },
+    {
+        "title": "Time Series Satellite Data Visualizer",
+        "shortDesc": "App to express the phenology by showing the Various stretching (Histogram, Satndard Deviation, 2 InterQuartile Range, Percentile Clipping) of the Time Series Images.",
+        "techTags": [
+            "Python",
+            "PyQT",
+            "GDAL",
+            "Numpy",
+            "Matplotlib"
+        ],
+        "image": "barchart.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://www.youtube.com/watch?v=6Fizcg3U7Ss"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/Time_Series_Satellite_Data_Visualizer/"
+            }
+        }
+    }
+]
