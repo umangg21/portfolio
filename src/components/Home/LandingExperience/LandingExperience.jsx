@@ -8,7 +8,7 @@ const ExperienceData = [
         exp: [
             {
                 title: "Software Engineer - Frontend",
-                org: "INDmoney, Gurgram",
+                org: "INDmoney, Gurugram",
                 orgLink: "http://indmoney.com/",
                 timeline: "March 2019 - Present"
             },
