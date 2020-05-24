@@ -56,5 +56,10 @@ const Navlink = ({ title, navlink, width = 50 }) => {
         href={navlink}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+            if (window.gtag) {
+                window.gtag("Click on Project Card", { card: title })
+            }
+        }}
         style={{ width: `${width}%` }}>{title}</a>
 }
