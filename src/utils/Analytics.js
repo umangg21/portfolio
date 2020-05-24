@@ -23,7 +23,7 @@ export default class Analytics {
 
 
     static getTitle = (title = "") => {
-        return title?.replace(" ", "_")
+        return title?.toLowerCase().replace(/\s/g, "_")
     }
 
     static track = (title, payload) => {

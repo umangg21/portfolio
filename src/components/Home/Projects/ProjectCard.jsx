@@ -63,7 +63,7 @@ const Navlink = ({ title, navlink, width = 50, card }) => {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => {
-            Analytics.track("Click on Project Cta", { card, title, navlink })
+            Analytics.track("Click on Project Cta", { project: card, cta: title, navlink })
         }}
         style={{ width: `${width}%` }}>{title}</a>
 }
