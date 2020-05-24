@@ -4,11 +4,12 @@ import './index.css';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Analytics from './utils/Analytics';
+
+Analytics.init()
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
