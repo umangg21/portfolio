@@ -11,6 +11,8 @@ const ProjectCard = (props) => {
         } = {}
     } = project
 
+    console.log(process.env.REACT_APP_DOC_TITLE, process.env.NODE_ENV)
+
     return (
         <div className="project-card">
             <a className="card-details" href={primary.navlink}
