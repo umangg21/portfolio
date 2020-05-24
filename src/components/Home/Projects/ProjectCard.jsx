@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ProjectCard.scss"
+import Analytics from '../../../utils/Analytics'
 
 
 const ProjectCard = (props) => {
@@ -18,6 +19,9 @@ const ProjectCard = (props) => {
             <a className="card-details" href={primary.navlink}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => {
+                    Analytics.track("Click on Project Card", { title })
+                }}
             >
                 <div className="card-image-container">
                     <img className="card-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt="" />
@@ -59,9 +63,7 @@ const Navlink = ({ title, navlink, width = 50 }) => {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => {
-            if (window.gtag) {
-                window.gtag("Click on Project Card", { card: title })
-            }
+            Analytics.track("Click on Project Cta", { title, navlink })
         }}
         style={{ width: `${width}%` }}>{title}</a>
 }

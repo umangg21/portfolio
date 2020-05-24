@@ -1,9 +1,10 @@
 import React from 'react'
 import "./ContactMe.scss"
+import Analytics from '../../../utils/Analytics'
 
 const Contact = [
     {
-        title: "mail",
+        title: "gmail",
         icon: "assets/icons/gmail.svg",
         link: "mailto:umangg21@gmail.com",
         text: "umangg21@gmail.com",
@@ -34,7 +35,11 @@ const ContactMe = () => {
             {
                 Contact.map((item) =>
                     <div className="contact-card text-center" key={item.title}>
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                        <a href={item.link} target="_blank" rel="noopener noreferrer"
+                            onClick={() => {
+                                Analytics.track("Click on Contact Me", { title: item.title })
+                            }}
+                        >
                             <img src={`${process.env.PUBLIC_URL}/${item.icon}`} alt=""></img>
                             {item.text && <p>{item.text}</p>}
                         </a>
