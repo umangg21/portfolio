@@ -22,10 +22,13 @@ export default class Analytics {
     }
 
 
+    static getTitle = (title = "") => {
+        return title?.replace(" ", "_")
+    }
 
-    static track = (...args) => {
+    static track = (title, payload) => {
         if (Analytics.shouldSendAnalyticsEvents() && window.gtag) {
-            window.gtag(...args)
+            window.gtag("event", Analytics.getTitle(title), payload)
         }
     }
 }

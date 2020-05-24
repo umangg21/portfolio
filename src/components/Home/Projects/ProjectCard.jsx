@@ -40,10 +40,10 @@ const ProjectCard = (props) => {
             <div className="card-button-container">
                 <div className="card-button-inner-container d-flex">
                     {
-                        primary && <Navlink title={primary.title} navlink={primary.navlink} width={secondary ? 50 : 100} />
+                        primary && <Navlink title={primary.title} card={title} navlink={primary.navlink} width={secondary ? 50 : 100} />
                     }
                     {
-                        secondary && <Navlink title={secondary.title} navlink={secondary.navlink} />
+                        secondary && <Navlink title={secondary.title} card={title} navlink={secondary.navlink} />
                     }
                 </div>
 
@@ -57,13 +57,13 @@ const ProjectCard = (props) => {
 export default ProjectCard
 
 
-const Navlink = ({ title, navlink, width = 50 }) => {
+const Navlink = ({ title, navlink, width = 50, card }) => {
     return <a className="view-code-button"
         href={navlink}
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => {
-            Analytics.track("Click on Project Cta", { title, navlink })
+            Analytics.track("Click on Project Cta", { card, title, navlink })
         }}
         style={{ width: `${width}%` }}>{title}</a>
 }
