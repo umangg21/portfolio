@@ -40,7 +40,7 @@ const ContactMe = () => {
                                 Analytics.track("Click on Contact Me", { title: item.title })
                             }}
                         >
-                            <img src={`${process.env.PUBLIC_URL}/${item.icon}`} alt=""></img>
+                            <img loading="lazy" src={`${process.env.PUBLIC_URL}/${item.icon}`} alt=""></img>
                             {item.text && <p>{item.text}</p>}
                         </a>
                     </div>
@@ -51,4 +51,4 @@ const ContactMe = () => {
     )
 }
 
-export default React.memo(ContactMe) 
+export default React.memo(ContactMe)

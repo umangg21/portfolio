@@ -64,6 +64,28 @@
         }
     },
     {
+        "title": "Image Carousel",
+        "shortDesc": "This a an example of Image Carousel build in React. It has a fuctionality of previewing images in modal, navigation control and uploading images in carousel.",
+        "type": "Proof of Concepts",
+        "techTags": [
+            "React",
+            "Javascript",
+            "HTML",
+            "SASS"
+        ],
+        "image": "image-carousel.jpg",
+        "cta": {
+            "primary": {
+                "title": "Preview",
+                "navlink": "https://umangg21.github.io/image-carousel/"
+            },
+            "secondary": {
+                "title": "Code",
+                "navlink": "https://github.com/umangg21/image-carousel"
+            }
+        }
+    },
+    {
         "title": "Contact Manager",
         "shortDesc": "This app is used to load contacts from social platforms and organize the contacts by assigning a relationship to each contact so that the user can identify contacts easily in Phone Book.",
         "type": "Proof of Concepts",

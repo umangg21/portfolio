@@ -1,0 +1,58 @@
+@import "../../../styles/variable.scss";
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 150px 70px 150px;
+}
+
+.skill-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+
+.skill-set{
+    margin: 22px;
+    text-align: center;
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+    .skills-container {
+        padding: 20px 100px 50px 100px;
+    }
+
+    .skill-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .skill-set{
+        margin: 18px;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+
+    .skills-container {
+        padding: 20px 40px 30px 40px;
+    }
+
+    .skill-title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .skill-icon{
+        height: auto;
+        width: 48px;
+    }
+
+    .skill-set{
+        margin: 10px;
+    }
+
+}
