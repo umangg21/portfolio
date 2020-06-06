@@ -43,7 +43,7 @@ const Skills = [
         title: "Axios"
     },
     {
-        icon: "assets/icons/skills/MomentJS.svg",
+        icon: "assets/icons/skills/MomentJs.svg",
         title: "MomentJS"
     },
     {
@@ -67,7 +67,7 @@ const Skills = [
         title: "Grunt"
     },
     {
-        icon: "assets/icons/skills/WebPack.svg",
+        icon: "assets/icons/skills/Webpack.svg",
         title: "Webpack"
     },
     {
