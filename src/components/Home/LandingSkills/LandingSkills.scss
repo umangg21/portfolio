@@ -14,11 +14,15 @@
     color: #7b7b7b;
 }
 
-.skill-set{
+.skill-set {
     margin: 22px;
     text-align: center;
-}
+    transition: ease-in 0.07s all;
 
+    &:hover {
+        transform: scale(1.3);
+    }
+}
 
 @media (max-width: $breakpoint-tablet) {
     .skills-container {
@@ -30,13 +34,12 @@
         font-weight: 500;
     }
 
-    .skill-set{
+    .skill-set {
         margin: 18px;
     }
 }
 
 @media (max-width: $breakpoint-mobile) {
-
     .skills-container {
         padding: 20px 40px 30px 40px;
     }
@@ -46,13 +49,12 @@
         font-weight: 500;
     }
 
-    .skill-icon{
+    .skill-icon {
         height: auto;
         width: 48px;
     }
 
-    .skill-set{
+    .skill-set {
         margin: 10px;
     }
-
 }
