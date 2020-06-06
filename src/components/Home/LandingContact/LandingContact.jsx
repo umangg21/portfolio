@@ -79,7 +79,7 @@ const LandingContactCard = (props) => {
                     Analytics.track("Click on About Me", { title: type })
                 }}
             >
-                <img src={`${process.env.PUBLIC_URL}/${icon}`} alt=""></img>
+                <img loading="lazy" src={`${process.env.PUBLIC_URL}/${icon}`} alt=""></img>
                 <div className="text-section">
                     <span className="subtitle">Click here to know more</span>
                     <p className="title">/{title}</p>

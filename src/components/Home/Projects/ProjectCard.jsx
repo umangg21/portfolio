@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
                 }}
             >
                 <div className="card-image-container">
-                    <img className="card-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt="" />
+                    <img loading="lazy" className="card-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt="" />
                 </div>
                 <p className="card-title">{title}</p>
                 <p className="card-desc">{shortDesc}</p>

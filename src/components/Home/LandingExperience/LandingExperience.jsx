@@ -61,7 +61,7 @@ const LandingExperience = () => {
                 {
                     ExperienceData.map((item) =>
                         <div className="experience-card" key={item?.title}>
-                            <img src={`${process.env.PUBLIC_URL}/${item.icon}`} alt=""></img>
+                            <img loading="lazy" src={`${process.env.PUBLIC_URL}/${item.icon}`} alt=""></img>
                             <p className="card-title">{item.title}</p>
 
                             {
