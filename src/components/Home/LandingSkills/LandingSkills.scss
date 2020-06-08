@@ -15,7 +15,8 @@
 }
 
 .skill-set {
-    margin: 22px;
+    width: 10%;
+    margin: 10px;
     text-align: center;
     transition: ease-in 0.07s all;
 
@@ -24,9 +25,30 @@
     }
 }
 
+@media (max-width: $breakpoint-medium) {
+    .skills-container {
+        padding: 40px 100px 70px 100px;
+    }
+
+    .skill-set {
+        width: 12%;
+    }
+}
+
+
+@media (max-width: $breakpoint-small) {
+    .skills-container {
+        padding: 40px 70px 70px 70px;
+    }
+
+    .skill-set {
+        width: 15%;
+    }
+}
+
 @media (max-width: $breakpoint-tablet) {
     .skills-container {
-        padding: 20px 100px 50px 100px;
+        padding: 20px 40px 50px 40px;
     }
 
     .skill-title {
@@ -35,13 +57,13 @@
     }
 
     .skill-set {
-        margin: 18px;
+        width: 20%;
     }
 }
 
 @media (max-width: $breakpoint-mobile) {
     .skills-container {
-        padding: 20px 40px 30px 40px;
+        padding: 20px 15px 30px 15px;
     }
 
     .skill-title {
@@ -55,6 +77,6 @@
     }
 
     .skill-set {
-        margin: 10px;
+        width: 25%;
     }
 }
