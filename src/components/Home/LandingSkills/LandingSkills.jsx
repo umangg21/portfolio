@@ -15,13 +15,26 @@ const Skills = [
         title: "TypeScript"
     },
     {
+        icon: "assets/icons/skills/Flow.svg",
+        title: "Flow"
+    },
+    {
         icon: "assets/icons/skills/HTML5.svg",
         title: "HTML"
     },
     {
         icon: "assets/icons/skills/CSS3.svg",
         title: "CSS"
-    }, {
+    },
+    {
+        icon: "assets/icons/skills/BaseWeb.svg",
+        title: "Base Web"
+    },
+    {
+        icon: "assets/icons/skills/Redux.svg",
+        title: "Redux"
+    },
+    {
         icon: "assets/icons/skills/Python.svg",
         title: "Python"
     },
@@ -29,7 +42,7 @@ const Skills = [
         icon: "assets/icons/skills/Sass.svg",
         title: "Sass"
     },
-    
+
     {
         icon: "assets/icons/skills/ANTD.svg",
         title: "ANTD"

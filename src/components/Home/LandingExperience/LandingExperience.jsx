@@ -3,24 +3,6 @@ import "./LandingExperience.scss"
 
 const ExperienceData = [
     {
-        title: "Experience",
-        icon: "assets/icons/experience/layers.svg",
-        exp: [
-            {
-                title: "Software Engineer - Frontend",
-                org: "INDmoney, Gurugram",
-                orgLink: "http://indmoney.com/",
-                timeline: "March 2019 - Present"
-            },
-            {
-                title: "Software Engineer",
-                org: "Infogain India Private Limited, Noida",
-                orgLink: "https://www.infogain.com/",
-                timeline: "July 2017 - March 2019"
-            }
-        ]
-    },
-    {
         title: "Internship",
         icon: "assets/icons/experience/medal.svg",
         exp: [
@@ -35,6 +17,30 @@ const ExperienceData = [
                 org: "Indian Institute of Remote Sensing (IIRS) - ISRO",
                 orgLink: "https://www.iirs.gov.in/",
                 timeline: "May 2015 - June 2015"
+            }
+        ]
+    },
+        {
+        title: "Experience",
+        icon: "assets/icons/experience/layers.svg",
+        exp: [
+             {
+                title: "Software Engineer",
+                org: "Uber, Hyderabad",
+                orgLink: "https://www.uber.com/",
+                timeline: "Aug 2019 - Present"
+            },
+            {
+                title: "Software Engineer - Frontend",
+                org: "INDmoney, Gurugram",
+                orgLink: "http://indmoney.com/",
+                timeline: "March 2019 - Jul 2019"
+            },
+            {
+                title: "Software Engineer",
+                org: "Infogain India Private Limited, Noida",
+                orgLink: "https://www.infogain.com/",
+                timeline: "July 2017 - March 2019"
             }
         ]
     },
