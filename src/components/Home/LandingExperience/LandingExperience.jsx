@@ -28,13 +28,13 @@ const ExperienceData = [
                 title: "Software Engineer",
                 org: "Uber, Hyderabad",
                 orgLink: "https://www.uber.com/",
-                timeline: "Aug 2019 - Present"
+                timeline: "Aug 2020 - Present"
             },
             {
                 title: "Software Engineer - Frontend",
                 org: "INDmoney, Gurugram",
                 orgLink: "http://indmoney.com/",
-                timeline: "March 2019 - Jul 2019"
+                timeline: "March 2019 - Jul 2020"
             },
             {
                 title: "Software Engineer",
