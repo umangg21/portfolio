@@ -12,8 +12,8 @@ const Landing = () => {
             </div>
             <div className="landing-block-right text-white">
                 <div className="content">
-                    <p className="mb-4">A frontend developer having 4+ years of experience in developing enterprise-level web apps.</p>
-                    <p>I am currently working as a Software Engineer at <b><i><a className="link" rel="noopener noreferrer" target="_blank" href="https://www.uber.com/">Uber</a></i></b>.
+                    <p className="mb-4">A frontend developer having 9+ years of experience in developing enterprise-level web apps.</p>
+                    <p>I am currently working as a Senior Software Engineer at <b><i><a className="link" rel="noopener noreferrer" target="_blank" href="https://www.uber.com/">Uber</a></i></b>.
                         At Uber Risk we're building Risk Governance tool that helps in preventing frauds in the system.
                         </p>
                 </div>
